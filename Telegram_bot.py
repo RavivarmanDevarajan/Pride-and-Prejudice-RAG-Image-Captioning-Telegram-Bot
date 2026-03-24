@@ -9,7 +9,7 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 from PIL import Image
 
 
-TOKEN = "8634865972:AAFyoJZpVnainsYa5vjs9iFzEXHAVgz4q5g"
+TOKEN = "your_new_token_here"
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("""
